@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import PropTypes from 'prop-types'
 
-const Section = ({title, children }) => {
+const Section = ({ title, children }) => {
 	return (
 		<Fragment>
 			<h2>{title}</h2>
